@@ -1,198 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="15990" start="node8" appversion="5.2.3">
+<tour appversion="5.2.3" start="node8" apprev="15990">
   <panorama id="node8" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/mRINA_Location_1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/mRINA_Location_1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="83.26" tilt="-9.36" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-9.36" projection="4" pan="83.26"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node9}" pan="103.67" tilt="-4.54" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="-4.54" url="{node9}" pan="103.67" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="_self" title="Apts" tilt="-2" url="https://mondriam.github.io/InteriorApts/" pan="69.91" skinid="ht_url" description="Inside Typical Apt"/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="126.44" blinding="50" tilt="63.52"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="63.52" pan="126.44" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/porto cedros_effects_Location_2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/porto cedros_effects_Location_2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="44.62" tilt="-8.14" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-8.14" projection="4" pan="44.62"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node8}" pan="-52.52" tilt="7.11" title="" description=""/>
-      <hotspot target="" id="Point02" skinid="ht_node" url="{node10}" pan="153.27" tilt="2.55" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="7.11" url="{node8}" pan="-52.52" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="" title="" tilt="2.55" url="{node10}" pan="153.27" skinid="ht_node" description=""/>
+      <hotspot id="Point03" target="_self" title="Apts" tilt="6.15" url="http://www.mondriam.com/Vr_Tours/Apts/index.html" pan="32.83" skinid="ht_url" description=""/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="140.94" blinding="50" tilt="63.25"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="63.25" pan="140.94" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/porto cedros_effects_Location_3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/porto cedros_effects_Location_3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="83.83" tilt="-3.04" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-3.04" projection="4" pan="83.83"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node8}" pan="-27.32" tilt="2.1" title="" description=""/>
-      <hotspot target="" id="Point02" skinid="ht_node" url="{node9}" pan="-6.08" tilt="-0.34" title="" description=""/>
-      <hotspot target="" id="Point03" skinid="ht_node" url="{node11}" pan="-176.54" tilt="3.15" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="2.1" url="{node8}" pan="-27.32" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="" title="" tilt="-0.34" url="{node9}" pan="-6.08" skinid="ht_node" description=""/>
+      <hotspot id="Point03" target="" title="" tilt="3.15" url="{node11}" pan="-176.54" skinid="ht_node" description=""/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="159.39" blinding="50" tilt="63.35"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="63.35" pan="159.39" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
   <panorama id="node11" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/porto cedros_effects_Location_4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/porto cedros_effects_Location_4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="87.14" tilt="-12.34" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-12.34" projection="4" pan="87.14"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node8}" pan="39.14" tilt="0.28" title="" description=""/>
-      <hotspot target="" id="Point02" skinid="ht_node" url="{node10}" pan="49.79" tilt="-1.12" title="" description=""/>
-      <hotspot target="" id="Point03" skinid="ht_node" url="{node14}" pan="101.92" tilt="6.51" title="" description=""/>
-      <hotspot target="" id="Point04" skinid="ht_node" url="{node12}" pan="140.87" tilt="-1.29" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="0.28" url="{node8}" pan="39.14" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="" title="" tilt="-1.12" url="{node10}" pan="49.79" skinid="ht_node" description=""/>
+      <hotspot id="Point03" target="" title="" tilt="6.51" url="{node14}" pan="101.92" skinid="ht_node" description=""/>
+      <hotspot id="Point04" target="" title="" tilt="-1.29" url="{node12}" pan="140.87" skinid="ht_node" description=""/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="-150.37" blinding="50" tilt="62.65"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="62.65" pan="-150.37" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/porto cedros_effects_Location_5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/porto cedros_effects_Location_5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="94.64" tilt="-10.44" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-10.44" projection="4" pan="94.64"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node11}" pan="-28.28" tilt="-2.25" title="" description=""/>
-      <hotspot target="" id="Point02" skinid="ht_node" url="{node14}" pan="40.14" tilt="9.32" title="" description=""/>
-      <hotspot target="" id="Point03" skinid="ht_node" url="{node13}" pan="89.93" tilt="3.86" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="-2.25" url="{node11}" pan="-28.28" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="" title="" tilt="9.32" url="{node14}" pan="40.14" skinid="ht_node" description=""/>
+      <hotspot id="Point03" target="" title="" tilt="3.86" url="{node13}" pan="89.93" skinid="ht_node" description=""/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="-152.06" blinding="50" tilt="62.92"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="62.92" pan="-152.06" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
   <panorama id="node13" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/porto cedros_effects_Location_6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/porto cedros_effects_Location_6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="95.38" tilt="-10.44" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-10.44" projection="4" pan="95.38"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node14}" pan="107.78" tilt="7.61" title="" description=""/>
-      <hotspot target="" id="Point02" skinid="ht_node" url="{node12}" pan="52.87" tilt="7.92" title="" description=""/>
-      <hotspot target="" id="Point03" skinid="ht_node" url="{node8}" pan="166.85" tilt="0.54" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="7.61" url="{node14}" pan="107.78" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="" title="" tilt="7.92" url="{node12}" pan="52.87" skinid="ht_node" description=""/>
+      <hotspot id="Point03" target="" title="" tilt="0.54" url="{node8}" pan="166.85" skinid="ht_node" description=""/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="34.22" blinding="50" tilt="63.84"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="63.84" pan="34.22" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
   <panorama id="node14" hideabout="1">
-    <input levelbiashidpi="0.400" levelbias="0.400" width="1024" levelingpitch="0" height="1024" leveltilesize="510" leveltileurl="tiles/porto cedros_effects_Location_7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
+    <input levelbiashidpi="0.400" overlap="1" levelbias="0.400" leveltilesize="510" levelingpitch="0" width="1024" height="1024" leveltileurl="tiles/porto cedros_effects_Location_7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="0"/>
       <level predecode="1" width="256" height="256" preload="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="72.8" pan="83.01" tilt="-1.05" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start fov="72.8" tilt="-1.05" projection="4" pan="83.01"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fov="5" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata author="" tags="New Porto Cedros Panos" info="" title="" source="" datetime="" latitude="" copyright="" comment="" customnodeid="" description="" longitude=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" wordwrap="1" textalpha="1" border="1" borderalpha="1" borderradius="1" background="1" enabled="1" width="180" height="20" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff"/>
-      <hotspot target="" id="Point01" skinid="ht_node" url="{node13}" pan="12.67" tilt="7.57" title="" description=""/>
-      <hotspot target="" id="Point02" skinid="ht_node" url="{node8}" pan="-75.12" tilt="3.46" title="" description=""/>
-      <hotspot target="" id="Point03" skinid="ht_node" url="{node11}" pan="-167.25" tilt="5.6" title="" description=""/>
-      <hotspot target="" id="Point04" skinid="ht_node" url="{node12}" pan="121.88" tilt="9.9" title="" description=""/>
+    <userdata info="" customnodeid="" source="" comment="" latitude="" longitude="" copyright="" title="" tags="New Porto Cedros Panos" author="" datetime="" description=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" textalpha="1" border="1" borderradius="1" bordercolor="0x000000" width="180" backgroundalpha="1" height="20" textcolor="0x000000" wordwrap="1" enabled="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" target="" title="" tilt="7.57" url="{node13}" pan="12.67" skinid="ht_node" description=""/>
+      <hotspot id="Point02" target="" title="" tilt="3.46" url="{node8}" pan="-75.12" skinid="ht_node" description=""/>
+      <hotspot id="Point03" target="" title="" tilt="5.6" url="{node11}" pan="-167.25" skinid="ht_node" description=""/>
+      <hotspot id="Point04" target="" title="" tilt="9.9" url="{node12}" pan="121.88" skinid="ht_node" description=""/>
     </hotspots>
     <media>
-      <lensflare alpha="80" type="1" id="Lensflare01" color="0xffffff" pan="101.61" blinding="50" tilt="62.99"/>
+      <lensflare type="1" alpha="80" id="Lensflare01" blinding="50" tilt="62.99" pan="101.61" color="0xffffff"/>
     </media>
-    <transition zoomout="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="2" zoomspeed="2" enabled="1" softedge="0" zoomfov="20"/>
+    <transition type="crossdissolve" blendtime="1" zoomout="0" zoomoutpause="1" zoomspeed="2" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="2" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextfullscreen="1" rubberband="0" dblclickfullscreen="1" sensitivity="10" lockedmouse="0" invertwheel="0" contextprojections="1" lockedkeyboardzoom="0" hideabout="1" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" contextfullscreen="1" dblclickfullscreen="1" lockedmouse="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1" sensitivity="10" lockedkeyboard="0" contextprojections="1" lockedkeyboardzoom="0" speedwheel="1"/>
   </panorama>
 </tour>

@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.3/15990
 // Filename: simplex con mapa ISLA.ggsk
-// Generated Fri Apr 13 09:57:43 2018
+// Generated Fri Apr 13 10:57:57 2018
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
